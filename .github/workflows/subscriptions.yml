@@ -1,0 +1,10 @@
+name: Subscriptions
+on:
+    workflow_dispatch:
+
+jobs:
+    rss:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
